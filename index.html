@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="back">
+        <header class="hed">
+            <div>
+                <img src="./image/logo.png" alt="">
+            </div>
+            <div class="menu">
+                <ul style="display: flex; gap: 30px;">
+                    <a href="" style="color: #3EB58B; text-decoration: underline solid 5px #000000; text-underline-offset: 10px;">Home</a>
+                    <a href="./about.html">About</a>
+                    <a href="./contacts.html">Contacts</a>
+                </ul>
+                <ul class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Models
+                    </a>
+                    <ul class="dropdown-menu" style="background-color: #171010af;">
+                        <li><a class="dropdown-item" style="color: #3EB58B; font-weight: 700;" href="./models/audi.html">Audi</a></li>
+                        <li><a class="dropdown-item" style="color: #3EB58B; font-weight: 700;" href="./models/bmw.html">Bmw</a></li>
+                        <li><a class="dropdown-item" style="color: #3EB58B; font-weight: 700;" href="./models/mers.html">Mersedes benz</a></li>
+                        <li><a class="dropdown-item" style="color: #3EB58B; font-weight: 700;" href="./models/honda.html">Honda</a></li>
+                        <li><a class="dropdown-item" style="color: #3EB58B; font-weight: 700;" href="./models/toyota.html">Toyota</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+        </header>
+    </div>
+        <section class="block">
+            <div class="text">
+                <h1>Find Your <span style="color: #3EB58B;">Perfect</span></h1>
+                <p>We assist by finding you the best deal,  and facilitating <br>
+                     the process for you.</p>
+                <a href="#click"><button>CLIKC -></button></a>
+            </div>
+            <div>
+                <img src="./image/banner.png" alt="">
+            </div>
+        </section>
+    
+        <section class="block2">
+            <div class="slider">
+                <div class="item">
+                    <img src="./image/audi.webp" alt="">
+                    <div class="slideText">
+                        Audi A6 седан</div>
+                </div>
+            
+                <div class="item">
+                    <img src="./image/mers.webp" alt="">
+                    <div class="slideText">
+                        Mercedes-Benz S-Класс</div>
+                </div>
+            
+                <div class="item">
+                    <img src="./image/bmw.webp" alt="">
+                    <div class="slideText">
+                        BMW 4 серия Гран Купе</div>
+                </div>
+            
+                <a class="prev" onclick="minusSlide()">&#10094;</a>
+                <a class="next" onclick="plusSlide()">&#10095;</a>
+            </div>
+            
+            <div class="slider-dots">
+                <span class="slider-dots_item" onclick="currentSlide(1)"></span> 
+                <span class="slider-dots_item" onclick="currentSlide(2)"></span> 
+                <span class="slider-dots_item" onclick="currentSlide(3)"></span> <hr>
+            </div>
+        </section>
+
+     <section class="block3">
+        <div class="lock">
+            <div class="imglog">
+                <img src="./image/star.png" alt="">
+                <img src="./image/car1.png" alt="">
+            </div>
+            <h1>
+                UNIQUE <span>DEALS</span>
+            </h1>
+            <p>
+                We find any car model - including luxury cars and special 
+                 promotions.
+            </p>
+        </div>
+
+        <div class="lock">
+            <div class="imglog">
+                <img src="./image/mobile.png" alt="">
+                <img src="./image/car1.png" alt="">
+            </div>
+            <h1>
+                ULTIMATE <span>CONVENIENCE</span>
+            </h1>
+            <p>
+                Our service to clients is transparent, convenient, and 
+                 personalized to each client.
+            </p>
+        </div>
+
+        <div class="lock">
+            <div class="imglog">
+                <img src="./image/add-location.png" alt="">
+                <img src="./image/car1.png" alt="">
+            </div>
+            <h1>
+                ADVANTAGEOUS <span>PRICING</span>
+            </h1>
+            <p>
+                Our volume, clout, and market knowledge allows us to beat 
+                up to 95% of the deals presented to us.
+            </p>
+        </div>
+     </section> <br><br>
+     <hr>
+<section class="block4" >
+    <h1 id="click">
+        Brand New <span>Car Deals</span>
+    </h1>
+    
+
+
+    
+    <div class="container">
+            <a href="./pages_models/mers1.html">
+                <div class="card mers" 1>
+                    <img src="./image/tavar/mers1.webp" alt=""><hr>
+                    <h5>Mercedes-Benz A-Класс седан</h5>
+                    <p>cash price</p>
+                    <span>59500$</span>
+                </div>
+            </a>
+            <a href="./pages_models/audi1.html">
+                <div class="card audi" 1>
+                    <img src="./image/tavar/audi1.webp" alt=""><hr>
+                    <h5>
+                        Audi A3 хэтчбек 5-дв.</h5>
+                    <p>cash price</p>
+                    <span>59500$</span>
+                </div>
+            </a>
+            
+            <a href="./pages_models/audi2.html">
+                <div class="card audi" 2>
+                    <img src="./image/tavar/audi2.webp" alt=""><hr>
+                    <h5>
+                        Audi A3 седан</h5>
+                    <p>cash price</p>
+                    <span>59500$</span>
+                </div>
+            </a>
+            <a href="./pages_models/mers2.html">
+                <div class="card mers" 2>
+                    <img src="./image/tavar/mers2.webp" alt=""><hr>
+                    <h5>Mercedes-Benz C-Класс седан</h5>
+                    <p>cash price</p>
+                    <span>49500$</span>
+                </div>
+            </a>
+
+           
+            <a href="./pages_models/mers3.html">
+                <div class="card mers" 3>
+                    <img src="./image/tavar/mers4.webp" alt=""><hr>
+                    <h5>Mercedes-Benz Maybach S-Класс</h5>
+                    <p>cash price</p>
+                    <span>65000$</span>
+                </div>
+            </a>
+            <a href="./pages_models/audi3.html">
+                <div class="card audi" 3>
+                    <img src="./image/tavar/audi3.webp" alt=""><hr>
+                    <h5>
+                        Audi S3 хэтчбек 5-дв.</h5>
+                    <p>cash price</p>
+                    <span>59500$</span>
+                </div>
+            </a>
+            
+
+           <a href="./pages_models/audi4.html">
+            <div class="card audi" 4>
+                <img src="./image/tavar/audi4.webp" alt=""><hr>
+                <h5>
+                    Audi RS3 седан</h5>
+                <p>cash price</p>
+                <span>59500$</span>
+            </div>
+           </a>
+            <a href="pages_models/mers1.html">
+                <div class="card mers" 4>
+                    <img src="./image/tavar/mers3.webp" alt=""><hr>
+                    <h5>
+                        Mercedes-Benz A-Класс седан</h5>
+                    <p>cash price</p>
+                    <span>59500$</span>
+                </div>
+            </a>
+            
+            <a href="pages_models/mers4.html">
+                <div class="card mers" 5>
+                    <img 1 src="./image/tavar/mers5.webp" alt=""><hr>
+                    <h5>
+                        Mercedes-Benz A-Класс AMG</h5>
+                    <p>cash price</p>
+                    <span>59500$</span>
+                </div>
+            </a>
+
+            <a href="./pages_models/audi5.html">
+                <div class="card audi" 5>
+                    <img 1 src="./image/tavar/audi5.webp" alt=""><hr>
+                    <h5>
+                       Audi A5 Sportback</h5>
+                    <p>cash price</p>
+                    <span>59500$</span>
+                </div>
+            </a>
+           <a href="./pages_models/mers5.html">
+            <div class="card mers" 6>
+                <img src="./image/tavar/mers6.webp" alt=""><hr>
+                <h5>
+                    Mercedes-Benz G-Класс AMG 5-дв</h5>
+                <p>cash price</p>
+                <span>59500$</span>
+            </div>
+           </a>
+
+            <a href="./pages_models/audi6.html">
+                <div class="card audi" 6>
+                    <img src="./image/tavar/audi6.webp" alt=""><hr>
+                    <h5>
+                        Audi RS5 Sportback</h5>
+                    <p>cash price</p>
+                    <span>59500$</span>
+                </div>
+            </a>
+            <a href="./pages_models/audi7.html">
+                <div class="card audi" 7>
+                    <img 1 src="./image/tavar/audi7.webp" alt=""><hr>
+                    <h5>
+                        Audi A7 Sportback</h5>
+                    <p>cash price</p>
+                    <span>59500$</span>
+                </div>
+            </a>
+           
+            <a href="./pages_models/mers6.html">
+                <div class="card mers" 7>
+                    <img src="./image//tavar/mers7.webp" alt=""><hr>
+                    <h5>
+                        Mercedes-Benz AMG GT</h5>
+                    <p>cash price</p>
+                    <span>59500$</span>
+                </div>
+            </a>
+            
+            <a href="./pages_models/mers7.html">
+                <div class="card mers" 8>
+                    <img src="./image/tavar/mers8.webp" alt=""><hr>
+                    <h5>
+                        Mercedes-Benz V-Класс</h5>
+                    <p>cash price</p>
+                    <span>59500$</span>
+                </div>
+            </a>
+            <a href="./pages_models/audi8.html">
+                <div class="card audi" 8>
+                    <img 1 src="./image/tavar/audi8.webp" alt=""><hr>
+                    <h5>
+                        Audi Q4 Sportback e-tron</h5>
+                    <p>cash price</p>
+                    <span>59500$</span>
+                </div>
+            </a>
+
+
+            <a href="./pages_models/bmw1.html">
+                <div class="card bmw" 1>
+                    <img src="./image/tavar/bmw1.webp" alt=""><hr>
+                    <h5>
+                        BMW 2 серия Гран Купе</h5>
+                    <p>cash price</p>
+                    <span>59500$</span>
+                </div>
+            </a>
+            <a href="./pages_models/honda1.html">
+                <div class="card honda" 1>
+                    <img src="./image/tavar/honda1.webp" alt=""><hr>
+                    <h5>
+                        Honda Civic хэтчбек 5-дв.</h5>
+                    <p>cash price</p>
+                    <span>59500$</span>
+                </div>
+            </a>
+            
+            <a href="./pages_models/honda2.html">
+                <div class="card honda" 2>
+                    <img src="./image/tavar/honda2.webp" alt=""><hr>
+                    <h5>
+                        Honda Passport</h5>
+                    <p>cash price</p>
+                    <span>59500$</span>
+                </div>
+            </a>
+            <a href="./pages_models/bmw2.html">
+                <div class="card bmw" 2>
+                    <img src="./image/tavar/bmw2.webp" alt=""><hr>
+                    <h5>
+                        BMW M3 седан</h5>
+                    <p>cash price</p>
+                    <span>49500$</span>
+                </div>
+            </a>
+
+           
+            <a href="./pages_models/bmw3.html">
+                <div class="card bmw" 3>
+                    <img src="./image/tavar/bmw3.webp" alt=""><hr>
+                    <h5>
+                        BMW 4 серия Гран Купе</h5>
+                    <p>cash price</p>
+                    <span>65000$</span>
+                </div>
+            </a>
+            <a href="pages_models/honda3.html">
+                <div class="card honda" 3>
+                    <img src="./image/tavar/honda3.webp" alt=""><hr>
+                    <h5>
+                        Honda Step WGN</h5>
+                    <p>cash price</p>
+                    <span>59500$</span>
+                </div>
+            </a>
+            
+
+           <a href="./pages_models/honda4.html">
+            <div class="card honda" 4>
+                <img src="./image/tavar/honda4.webp" alt=""><hr>
+                <h5>
+                    Honda CR-V</h5>
+                <p>cash price</p>
+                <span>59500$</span>
+            </div>
+           </a>
+           <a href="./pages_models/bmw4.html">
+            <div class="card bmw" 4>
+                <img src="./image/tavar/bmw4.webp" alt=""><hr>
+                <h5>
+                    BMW 5 серия седан</h5>
+                <p>cash price</p>
+                <span>59500$</span>
+            </div>
+           </a>
+            
+            <a href="./pages_models/bmw5.html">
+                <div class="card bmw" 5>
+                    <img 1 src="./image/tavar/bmw5.webp" alt=""><hr>
+                    <h5>
+                        BMW M5 седан</h5>
+                    <p>cash price</p>
+                    <span>59500$</span>
+                </div>
+            </a>
+
+            <a href="./pages_models/toyota.html">
+                <div class="card toyota" 1>
+                    <img 1 src="./image/tavar/toyota5.webp" alt=""><hr>
+                    <h5>
+                        Toyota Corolla седан</h5>
+                    <p>cash price</p>
+                    <span>59500$</span>
+                </div>
+            </a>
+            <a href="./pages_models/bmw6.html">
+                <div class="card bmw" 6>
+                    <img src="./image/tavar/bmw6.webp" alt=""><hr>
+                    <h5>
+                        BMW 6 серия Гран Туризмо</h5>
+                    <p>cash price</p>
+                    <span>59500$</span>
+                </div>
+            </a>
+
+            <a href="./pages_models/toyota2.html">
+                <div class="card toyota" 2>
+                    <img src="./image/tavar/toyota6.webp" alt=""><hr>
+                    <h5>
+                        Toyota Camry</h5>
+                    <p>cash price</p>
+                    <span>59500$</span>
+                </div>
+            </a>
+            <a href="./pages_models/toyota3.html">
+                <div class="card toyota" 3>
+                    <img 1 src="./image/tavar/toyota7.webp" alt=""><hr>
+                    <h5>
+                        Toyota RAV4 5-дв.</h5>
+                    <p>cash price</p>
+                    <span>59500$</span>
+                </div>
+            </a>
+           
+            <a href="./pages_models/bmw7.html">
+                <div class="card bmw" 7>
+                    <img src="./image//tavar/bmw7.webp" alt=""><hr>
+                    <h5>
+                        BMW X1</h5>
+                    <p>cash price</p>
+                    <span>59500$</span>
+                </div>
+            </a>
+            
+            <a href="./pages_models/bmw8.html">
+                <div class="card bmw" 8>
+                    <img src="./image/tavar/bmw8.webp" alt=""><hr>
+                    <h5>
+                        BMW X2</h5>
+                    <p>cash price</p>
+                    <span>59500$</span>
+                </div>
+            </a>
+            <a href="./pages_models/toyota4.html">
+                <div class="card toyota" >
+                    <img 1 src="./image/tavar/toyota8.webp" alt=""><hr>
+                    <h5>
+                        Toyota Land Cruiser 300</h5>
+                    <p>cash price</p>
+                    <span>59500$</span>
+                </div>
+            </a>
+
+        </div>
+        </section>
+        <hr>
+        
+        <section class="block5">
+            <div>
+                <h1>one hundred <span>auto repair</span></h1>
+                <p>
+                    We are inspired to serve and are committed to delivering 
+                    excellence and quality service to auto care. We know that 
+                    handling quick oil changes, tire issues, unexpected check 
+                    engine lights, mechanical repairs and state inspections can be a 
+                    hassle, so we’ve made auto care services easier and more convenient. 
+                    See for yourself how we’re Reimagining
+                </p>
+            </div>
+
+            <div>
+                <img src="./image/tavar/remont.png" alt="">
+            </div>
+        </section>
+
+
+
+        <footer class="footer">
+            <div class="foot_logo">
+                <img src="./image/footer-logo.png" alt="">
+                <p>We assist by finding you the best deal, and facilitating <br> 
+                    <span>the process for you.</span></p>
+            </div>
+
+            <div class="discover">
+                <a href="./index.html">HOME</a>
+                <a href="./about.html">ABOUT</a>
+                <a href="./contacts.html">CONTACTS</a>
+                <a href="">MODELS</a>
+            </div>
+                
+            <div class="contact">
+                <div>
+                    <p>Email:</p>
+                    <span>usupovsyrgak5@gmail.com</span>
+                </div>
+                <div>
+                    <p>Phone:</p>
+                    <span>996508200206</span>
+                </div>
+                <div>
+                    <p>Address:</p>
+                    <span>Kok jar Seitek 5</span>
+                </div>
+            </div>
+        </footer>
+    <script src="./main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+    
+</body>
+</html>

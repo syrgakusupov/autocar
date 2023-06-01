@@ -1,0 +1,284 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    
+}
+
+
+.hed{
+    z-index: 9999;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d7d6d6;
+    position: fixed;
+    width: 100%;
+}
+.hed img{
+    width: 150px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+.menu a:hover{
+    color: #3EB58B;
+    text-decoration: underline solid 5px #000;
+    text-underline-offset: 10px;
+}
+.menu ul a{
+    
+    color: #000000;
+    font-size: 28px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.block{
+    background-color: white;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.block img{
+    width: 600px;
+}
+.text h1{
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.text p{
+    font-size: 18px;
+    color: #000;
+    text-transform: uppercase;
+}
+.block button{
+    margin-top: 40px;
+    width: 200px;
+    height: 50px;
+    border-radius: 16px;
+    border: none;
+    background-color: #3EB58B;
+    font-size: 26px;
+    font-weight: 500;
+    color: #000;
+    transition: all 1s;
+    cursor: pointer;
+}
+.block button:hover{
+    background-color: #000;
+    color: #3EB58B;
+    transition: all 1s;
+    margin-left: 40px;
+}
+
+.slider{
+    z-index: 10px;
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    height: 650px;
+    margin-bottom: 15px;
+}
+.slider .item img {
+    filter: brightness(60%);
+    object-fit: cover;
+    width: 100%;
+    height: 650px;
+    border: none !important;
+    box-shadow: none !important;
+    
+}
+.slider .prev, .slider .next {
+    cursor: pointer;
+    position: absolute;
+    top: 70%;
+    margin: 0 300px;
+    text-decoration: none;
+    color: rgb(169, 165, 165);
+    font-weight: 400;
+    font-size: 58px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+.slider .next {
+    right: 0;
+   
+}
+.slider .prev:hover,
+.slider .next:hover {
+    color: #3EB58B;
+}
+.slideText {
+    position: absolute;
+    color: rgb(169, 165, 165);
+    font-size: 65px;
+    left: 50%;
+    top: 76%;
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 1px 1px #000, 0 0 1em #000;
+}
+
+.slider-dots {
+    text-align: center;
+}
+.slider-dots_item{
+    cursor: pointer;
+    height: 16px;
+    width: 16px;
+    margin: 0 2px;
+    background-color: rgb(169, 165, 165);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 1s ease;
+}
+.active,
+.slider-dots_item:hover {
+    background-color: #3EB58B;
+}
+.item {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 2.5s;
+    animation-name: fade;
+    animation-duration: 2.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.block3{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.lock{
+    box-shadow: 1px 1px 8px black;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+}
+.lock h1{
+    font-size: 26px;
+    margin-top: 50px;
+}
+.lock span{
+    color: #3EB58B;
+}
+.imglog{
+    display: block;
+    
+}
+.block4{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.block4 h1{
+    padding: 0px;
+}
+.block4 span{
+    color: #3EB58B;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container  a{
+    text-decoration: none;
+}
+.card {
+    width: 250px;
+    margin: 36px;
+    height: 46vh;
+    text-align: center;
+    overflow: hidden;
+    transition: .2s;
+    color: #000;
+    background-color: white;
+    padding: 30px;
+    font-size: 16px;
+}
+.card:hover{
+    color: #3EB58B;
+    padding: 0;
+    
+}
+
+.block5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+}
+.block5 p{
+    max-width: 600px;
+}
+.block5 span{
+    color: #3EB58B;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #303030;
+    align-items: center;
+    height: 40vh;
+    padding: 0 100px;
+}
+.foot_logo{
+    display: block;
+    font-size: 20px;
+}
+.foot_logo img{
+    margin: 50px 0px;
+    width: 300px;
+}
+.foot_logo span{
+    color: #3EB58B;
+    
+}
+.foot_logo p{
+    color: white;
+}
+.discover{
+    display: grid;
+    line-height: 48px;
+}
+.discover a{
+    text-decoration: none;
+    font-size: 26px;
+    color: white;
+}
+.contact{
+    display: grid;
+}
+.contact p{
+    font-size: 20px;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.contact span{
+    color: #3EB58B;
+}

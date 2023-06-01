@@ -1,0 +1,119 @@
+span{
+    color: #3EB58B;
+}
+.hed{
+    z-index: 9999;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d7d6d6;
+    position: fixed;
+    width: 100%;
+  }
+  .hed img{
+    width: 150px;
+  }
+  .menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  .menu a:hover{
+    color: #3EB58B;
+    text-decoration: underline solid 5px #000;
+    text-underline-offset: 10px;
+  }
+  .menu ul a{
+    
+    color: #000000;
+    font-size: 28px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  
+  .text{
+    padding:150px 100px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+ .text h1{
+    font-size: 48px;
+  }
+  .text p{
+    font-size: 20px;
+    max-width: 500px;
+  }
+
+.block{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:150px 100px ;
+}
+
+  .text2{
+    display: grid;
+    gap: 50px;
+  }
+.text2 img{
+  width: 40px;
+}
+.text2 h2{
+  font-size: 26px;
+  font-weight: 400;
+}
+.con{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #303030;
+    align-items: center;
+    height: 40vh;
+    padding: 0 100px;
+}
+.foot_logo{
+    display: block;
+    font-size: 20px;
+}
+.foot_logo img{
+    margin: 50px 0px;
+    width: 300px;
+}
+.foot_logo span{
+    color: #3EB58B;
+    
+}
+.foot_logo p{
+    color: white;
+}
+.discover{
+    display: grid;
+    line-height: 48px;
+}
+.discover a{
+    text-decoration: none;
+    font-size: 26px;
+    color: white;
+}
+.contact{
+    display: grid;
+}
+.contact p{
+    font-size: 20px;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.contact span{
+    color: #3EB58B;
+}
